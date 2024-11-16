@@ -6,6 +6,10 @@
   "scripts": {
     "start": "node server.js"
   },
+  "engines": {
+    "npm": "please-use-yarn",
+    "yarn": ">= 1.22.22"
+  },
   "author": "Sovannara",
   "license": "MIT",
   "dependencies": {
