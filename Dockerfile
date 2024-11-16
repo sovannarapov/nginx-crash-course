@@ -1,4 +1,4 @@
-FROM node:14
+FROM node:alpine
 
 WORKDIR /app
 
@@ -7,7 +7,7 @@ COPY index.html .
 COPY images ./images
 COPY package.json .
 
-RUN npm install
+RUN yarn
 
 EXPOSE 3000
 
